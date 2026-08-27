@@ -1,0 +1,124 @@
+:root {
+	--bg-primary: #0f1115;
+	--bg-secondary: #161921;
+	--bg-card: #1c202a;
+	--text-primary: #ffffff;
+	--text-secondary: #a1a1aa;
+	--text-muted: #71717a;
+	--accent-primary: #3b82f6;
+	--accent-hover: #2563eb;
+	--error-primary: #ef4444;
+	--error-secondary: #7f1d1d;
+	--success-primary: #22c55e;
+	--warning-primary: #f59e0b;
+	--border-color: #272a35;
+	--radius-md: 8px;
+	--radius-lg: 12px;
+	--font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+	--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+	font-family: var(--font-sans);
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: var(--accent-primary);
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: var(--accent-hover);
+}
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--text-primary);
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+/* Utilities */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem 1rem;
+	border-radius: var(--radius-md);
+	font-weight: 500;
+	font-size: 0.875rem;
+	border: none;
+	transition: all 0.2s;
+}
+
+.btn-primary {
+	background-color: var(--accent-primary);
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: var(--accent-hover);
+}
+
+.btn-danger {
+	background-color: var(--error-primary);
+	color: white;
+}
+
+.btn-danger:hover {
+	background-color: #dc2626;
+}
+
+.card {
+	background-color: var(--bg-card);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius-lg);
+	padding: 1.5rem;
+	box-shadow: var(--shadow-md);
+}
+
+.grid {
+	display: grid;
+	gap: 1.5rem;
+}
+
+.grid-cols-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+	.grid-cols-2, .grid-cols-3 {
+		grid-template-columns: 1fr;
+	}
+}
+
+.text-error { color: var(--error-primary); }
+.text-success { color: var(--success-primary); }
+.text-warning { color: var(--warning-primary); }
+.text-muted { color: var(--text-muted); }

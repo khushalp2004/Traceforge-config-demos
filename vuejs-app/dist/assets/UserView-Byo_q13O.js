@@ -1,0 +1,1 @@
+import{b as e,c as t,d as n,n as r,o as i,p as a,y as o}from"./index-P5Beqfxm.js";var s={class:`user-view`},c=n({__name:`UserView`,setup(n){let c=r();return(n,r)=>(a(),t(`div`,s,[r[0]||=i(`h1`,null,`User Profile`,-1),i(`p`,null,`Dynamic Route Parameter ID: `+e(o(c).params.id),1)]))}});export{c as default};

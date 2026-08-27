@@ -1,0 +1,23 @@
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for fstatat() in sys/stat.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-irq7by sitelibdir\=./.gem.20260727-39654-irq7by clean
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-irq7by sitelibdir\=./.gem.20260727-39654-irq7by
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-irq7by sitelibdir\=./.gem.20260727-39654-irq7by install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20260727-39654-irq7by/bootsnap
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.24.6/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260727-39654-irq7by sitelibdir\=./.gem.20260727-39654-irq7by clean

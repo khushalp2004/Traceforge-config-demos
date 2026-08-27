@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --bg-color: #1e1e24;
+  --surface-color: #282c34;
+  --border-color: #3e4451;
+  --text-primary: #dcdfe4;
+  --text-secondary: #abb2bf;
+  --primary-color: #61afef;
+  --danger-color: #e06c75;
+  --danger-hover: #be5058;
+  --success-color: #98c379;
+  --warning-color: #e5c07b;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.main-content {
+  min-height: calc(100vh - 60px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}

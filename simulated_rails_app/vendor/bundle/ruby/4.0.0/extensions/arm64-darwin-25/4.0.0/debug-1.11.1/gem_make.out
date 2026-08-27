@@ -1,0 +1,19 @@
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-ddn7uh sitelibdir\=./.gem.20260727-39654-ddn7uh clean
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-ddn7uh sitelibdir\=./.gem.20260727-39654-ddn7uh
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-ddn7uh sitelibdir\=./.gem.20260727-39654-ddn7uh install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20260727-39654-ddn7uh/debug
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260727-39654-ddn7uh sitelibdir\=./.gem.20260727-39654-ddn7uh clean

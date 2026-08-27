@@ -1,0 +1,18 @@
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-qbywry sitelibdir\=./.gem.20260727-39654-qbywry clean
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-qbywry sitelibdir\=./.gem.20260727-39654-qbywry
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make -j3 DESTDIR\= sitearchdir\=./.gem.20260727-39654-qbywry sitelibdir\=./.gem.20260727-39654-qbywry install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20260727-39654-qbywry
+
+current directory: /Users/khushalpatil/Downloads/untitled folder/simulated_rails_app/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260727-39654-qbywry sitelibdir\=./.gem.20260727-39654-qbywry clean

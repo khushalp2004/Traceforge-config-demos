@@ -1,0 +1,21 @@
+{
+  "name": "express-debug-app",
+  "version": "1.0.0",
+  "description": "Minimal production-style Express.js application for testing and debugging practice",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "5.0.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "usetraceforge": "^0.1.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
